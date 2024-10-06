@@ -38,9 +38,9 @@ function EditRoom() {
 
     return (
         <>
-            <div className="form-group row">
-                <label htmlFor="text3" className="col-4 col-form-label">ID</label>
-                <div className="col-8">
+            <div className="mb-3 row">
+                <label htmlFor="text3" className="col-sm-4 col-form-label">ID</label>
+                <div className="col-sm-8">
                     <input
                         value={data.id || ''}
                         name="id"
@@ -50,9 +50,9 @@ function EditRoom() {
                     />
                 </div>
             </div>
-            <div className="form-group row">
-                <label htmlFor="text1" className="col-4 col-form-label">Name</label>
-                <div className="col-8">
+            <div className="mb-3 row">
+                <label htmlFor="text1" className="col-sm-4 col-form-label">Name</label>
+                <div className="col-sm-8">
                     <input
                         value={data.name || ''}
                         name="name"
@@ -62,9 +62,9 @@ function EditRoom() {
                     />
                 </div>
             </div>
-            <div className="form-group row">
-                <label htmlFor="price" className="col-4 col-form-label">Enter Price</label>
-                <div className="col-8">
+            <div className="mb-3 row">
+                <label htmlFor="price" className="col-sm-4 col-form-label">Enter Price</label>
+                <div className="col-sm-8">
                     <input
                         value={data.price || ''}
                         name="price"
@@ -74,9 +74,9 @@ function EditRoom() {
                     />
                 </div>
             </div>
-            <div className="form-group row">
-                <label htmlFor="amenities" className="col-4 col-form-label">Enter amenities</label>
-                <div className="col-8">
+            <div className="mb-3 row">
+                <label htmlFor="amenities" className="col-sm-4 col-form-label">Enter amenities</label>
+                <div className="col-sm-8">
                     <input
                         value={data.amenities || ''}
                         name="amenities"
@@ -86,9 +86,9 @@ function EditRoom() {
                     />
                 </div>
             </div>
-            <div className="form-group row">
-                <label htmlFor="available" className="col-4 col-form-label">Enter available</label>
-                <div className="col-8">
+            <div className="mb-3 row">
+                <label htmlFor="available" className="col-sm-4 col-form-label">Enter available</label>
+                <div className="col-sm-8">
                     <input
                         value={data.available || ''}
                         name="available"
@@ -98,8 +98,8 @@ function EditRoom() {
                     />
                 </div>
             </div>
-            <div className="form-group row">
-                <div className="offset-4 col-8">
+            <div className="mb-3 row">
+                <div className="offset-4 col-sm-8">
                     <button onClick={handleSubmit} className="btn btn-primary">Edit</button>
                 </div>
             </div>

@@ -14,9 +14,7 @@ app.use(cors()); // for handling CORS
 mongoose.set('debug', true);
 
 
-
-const uri = 'mongo db link';
-
+const uri = 'mongodb+srv://Namra:namraDhol2065@namracluster.jfqge.mongodb.net/Management';
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
