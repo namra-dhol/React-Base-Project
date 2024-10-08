@@ -1,2 +1,2 @@
 # React-Base-Project
-Hy this is Basic Demo Project
+Hy this is basic hotel-management-system Project 
